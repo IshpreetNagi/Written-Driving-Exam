@@ -21,27 +21,27 @@ int randomizer() //this is the function that holds mostly all the code that allo
 {
     //A brief rundown of this code works as I understand it can be rather confusing to interpret what is being done
 
-    //Essentially the way this code works is that I have all the possible exam questions in one text file,
-    //to display them I open up the file and read lines in the file without displaying them on screen as a way to
-    //skip those lines. Then once I have skipped the number of lines I want, I would have arrived at the number of
-    //lines in the file that hold the question I want to display, then I read those lines and display them on screen,
-    //to display them I make the code read up to those divider lines I have put in the file that is made up of dashes, ‘---’. The way
-    //the randomizer works is that the number of lines I have to skip to get to each question is put into a vector array
-    //from where they are randomly selected. Then that skip number is put into the loop so that many lines of the file
-    //can be skipped without being displayed so I can arrive at the lines in the file where the question I want to display
-    //is being held. Then I make the code read up to the dash divider in between questions and display those numbers
-    //of lines. Right under the dash line divider I have the answer to each question, once the code hits the dashed
-    //line it stops reading, but I have one more for loop that will read the one line under the dash, collect the
-    //answer, store it into a variable and send it to the Exam function so it can be compared with the answer the user
-    //entered and see if they entered in the correct answer to that question.
+    // Essentially the way this code works is that I have all the possible exam questions in one text file,
+    // to display them I open up the file and read lines in the file without displaying them on screen as a way to
+    // skip those lines. Then once I have skipped the number of lines I want, I would have arrived at the number of
+    // lines in the file that hold the question I want to display, then I read those lines and display them on screen,
+    // to display them I make the code read up to those divider lines I have put in the file that is made up of dashes, ï¿½---ï¿½. The way
+    // the randomizer works is that the number of lines I have to skip to get to each question is put into a vector array
+    // from where they are randomly selected. Then that skip number is put into the loop so that many lines of the file
+    // can be skipped without being displayed so I can arrive at the lines in the file where the question I want to display
+    // is being held. Then I make the code read up to the dash divider in between questions and display those numbers
+    // of lines. Right under the dash line divider I have the answer to each question, once the code hits the dashed
+    // line it stops reading, but I have one more for loop that will read the one line under the dash, collect the
+    // answer, store it into a variable and send it to the Exam function so it can be compared with the answer the user
+    // entered and see if they entered in the correct answer to that question.
 
-    //Since I have to display 10 questions and have 21 questions in total in the file, I have made it so once a
-    //question has been displayed, it can not be displayed again. The way I do this is once a random number to skip
-    //lines is selected before it is sent to the for loop where it would actually be used, it is compared to an array
-    //which holds all the skip values that have already been displayed. If the value is chosen is equal to the value
-    //in the array, the code will randomly select a new skip value. However, if the skip value does not equal to value on the
-    //array, the code will keep going and send that skip value to the for loop but also add that skip value to the data
-    //file from which the int array used for checking previously displayed questions is filled from.
+    // Since I have to display 10 questions and have 21 questions in total in the file, I have made it so once a
+    // question has been displayed, it can not be displayed again. The way I do this is once a random number to skip
+    // lines is selected before it is sent to the for loop where it would actually be used, it is compared to an array
+    // which holds all the skip values that have already been displayed. If the value is chosen is equal to the value
+    // in the array, the code will randomly select a new skip value. However, if the skip value does not equal to value on the
+    // array, the code will keep going and send that skip value to the for loop but also add that skip value to the data
+    // file from which the int array used for checking previously displayed questions is filled from.
 
     string checkline; //declaring the string variable
     int check[10]; //declaring the int array
