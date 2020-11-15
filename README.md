@@ -1,9 +1,8 @@
 # Written Driving Exam
- This project is an imitation of the interface used by most Ontario government-operated centers to take the G1 knowledge exam of the average person. This specific program was created to mimic the type of interface used at the DriveTest centers located in Brampton, ON. The program is a cumulation of all the techniques and skills I have mastered within C++. Creating an imitation of the way the actual G1 exam is taken, is a way for me to put together all that I have learned and create something a project that can actually be used by people. This code incorporates things such as file systems, for-loops, pointers, references, functions, while-true loops, arrays, etc.
+ This project is an imitation of the interface used by most Ontario government-operated centers to take the G1 knowledge exam of the average person. This specific program was created to mimic the type of interface used at the DriveTest centers specifically located in Brampton, ON. During the creation of this code, some of the techniques I was able to learn were methods on randomizing outputs from a text file, pointers, and outputting values into a vector array from a text file. 
 
-## Setting Up
- [google](www.google.com)
+ # Requirments
+- [C++ >= 11](https://visualstudio.microsoft.com/vs/features/cplusplus/)
 
- ```java
-Anything
- ```
+# Setting Up
+Once you have cloned this porject on to your local machine, you can simply just run the code and see the program for what it is. 
