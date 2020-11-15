@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605228719 source:c:\users\ishpr\desktop\grade 12 cs\drivingknowledgetest_interface\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
