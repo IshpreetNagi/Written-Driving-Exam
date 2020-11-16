@@ -5,4 +5,4 @@
 - [C++ >= 11](https://visualstudio.microsoft.com/vs/features/cplusplus/)
 
 # Setting Up
-Once you have cloned this porject on to your local machine, you can simply just run the code and see the program for what it is. 
+Once you have cloned this project on to your local machine, you can simply just run the code and see the program for what it is. 
