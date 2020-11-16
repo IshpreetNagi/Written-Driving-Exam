@@ -6,3 +6,6 @@
 
 # Setting Up
 Once you have cloned this project on to your local machine, you can simply just run the code and see the program for what it is. 
+
+# Future Potential
+This program has the potential of being used as a way to practice for the actual G1 driving exam, or even going as far as to being upgraded with some more security features and being used as an actual G1 Knowledge exam. I went further and made it so the code is not just the exam itself, but has a couple of extra features that really add to the program as a whole. More on the extra features later, first let's talk about the exam itself. 
